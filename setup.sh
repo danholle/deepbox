@@ -90,7 +90,7 @@ sudo pip3 install keras h5py
 #
 # cntk.  choose gpu or not
 #sudo pip3 install https://cntk.ai/PythonWheel/GPU/cntk-2.1-cp35-cp35m-linux_x86_64.whl
-sudo pip3 install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.3-cp35-linux_x86_64.whl
+sudo pip3 install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.3-cp35-cp35m-linux_x86_64.whl
 # pytorch:  gpu or not
 #sudo pip3 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
 sudo pip3 install http://download.pytorch.org/whl/cu75/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
@@ -102,7 +102,7 @@ sudo pip3 install torchvision
 # Dan's personal stuff
 #
 cp -a wallpaper/ ~/Pictures/
-sudo apt-get install chromium-browser hplip-gui calibre gir1.2-gtop-2.0
+sudo apt-get install -y chromium-browser hplip-gui calibre gir1.2-gtop-2.0
 sudo pip3 install psutil unidecode
 cd ..
 git clone git://github.com/danholle/deeptext.git
@@ -127,13 +127,21 @@ sudo reboot
 #      gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:
 #  
 #  Dan-specific setup things:
-# 
-#  1.  Files -> Pictures -> wallpaper.  Choose one;  right
+#
+#  1.  Browser.  I use Chrome across all platforms.  Start
+#      chromium (OSS version);  log in;  Add to Favorites
+#      on left toolbar.
+#  2.  Terminal.  Ctrl-Alt-T to start.  Weird albino terminal
+#      box.  Edit->Preferences->profiles->edit.  I set it to
+#      120x24.  Clicked colours & unchecdd System Theme.
+#      Black and green!  Remember the Hazeltine!  Add to 
+#      Favorites on the left toolbar. 
+#  3.  Files -> Pictures -> wallpaper.  Choose one;  right
 #      click;  make it background.
-#  2.  Wireless printer:  Settings -> Printer.  It should 
+#  4.  Wireless printer:  Settings -> Printer.  It should 
 #      find your wireless printer.  Add it and print a
 #      test page.
-#  3.  System monitor for the top bar.   Browse to
+#  5.  System monitor for the top bar.   Browse to
 #      extensions.gnome.org/extension/120/system-monitor
 #      Use the switch to turn it on.  Click on the tools
 #      icon to customize it:  I tick all the boxes along
@@ -141,11 +149,23 @@ sudo reboot
 #      CPU, memory, net, and thermal to Display, and turn
 #      all others off.  For the Display guys, I set them to
 #      Digit (rather than graph).
-#  4.  Setting up Dropbox.  I found the command line options
+#  6.  Setting up Dropbox.  I found the command line options
 #      for this were problematic;  best to browse to 
 #      dropbox.com and do it all there.
-#  5.  Calibre setup
-#  6.  Turn off touchpad.
+#       - Log in.  
+#       - Right-click your pic in upper right; click Install
+#       - Choose Ubuntu 64 bit;  when downloaded, Open it.
+#       - Click Install (again!).  Eventually a dialog box
+#         appears saying "Dropbox Start Required".  Now there
+#         will be a flurry of OK-related buttons to push but
+#         eventually you will get a Dropbox icon in the lower
+#         right showing it's syncing.
+#       - Right click that, Pause Syncing, go to Preferences,
+#         click Sync (upper right), and select which folders
+#         you want sync'd.  Do the OK OK OK thing.
+#       - Right click Dropbox icon again and resume sync
+#  7.  Calibre setup
+#  8.  Turn off touchpad.
 #   
 
 

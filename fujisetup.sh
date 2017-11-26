@@ -39,9 +39,13 @@ sudo apt-get install -y libatlas-base-dev libopenblas-dev
 # Python stuff
 sudo apt-get install -y python3-dev python3-pip
 sudo apt-get install -y python3-nose python3-numpy python3-scipy
-sudo pip3 install --upgrade pip
-sudo pip3 install numpy scipy scikit-learn protobuf
+sudo -H pip3 install --upgrade pip
+sudo -H pip3 install numpy scipy scikit-learn protobuf
 
+# Stuff for remote desktop
+gsettings set org.gnome.Vino enabled true
+gsettings set org.gnome.Vino prompt-enabled false
+gsettings set org.gnome.vino require-encryption false
 
 
 ###########################################################
@@ -79,10 +83,10 @@ sudo pip3 install numpy scipy scikit-learn protobuf
 # Tensorflow and friends
 #
 # Tensorflow:  choose GPU version, or CPU version
-#sudo pip3 install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.4.0-cp35-cp35m-linux_x86_64.whl
-sudo pip3 install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.4.0-cp35-cp35m-linux_x86_64.whl
-#sudo pip3 install tensorflow
-sudo pip3 install keras h5py
+#sudo -H pip3 install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.4.0-cp35-cp35m-linux_x86_64.whl
+sudo -H pip3 install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.4.0-cp35-cp35m-linux_x86_64.whl
+#sudo -H pip3 install tensorflow
+sudo -H pip3 install keras h5py
 
 
 ###########################################################
@@ -90,12 +94,12 @@ sudo pip3 install keras h5py
 # More Deep Learning stuff:  pytorch and cntk
 #
 # cntk.  choose gpu or not
-#sudo pip3 install https://cntk.ai/PythonWheel/GPU/cntk-2.1-cp35-cp35m-linux_x86_64.whl
-sudo pip3 install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.3-cp35-cp35m-linux_x86_64.whl
+#sudo -H pip3 install https://cntk.ai/PythonWheel/GPU/cntk-2.1-cp35-cp35m-linux_x86_64.whl
+sudo -H pip3 install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.3-cp35-cp35m-linux_x86_64.whl
 # pytorch:  gpu or not
-#sudo pip3 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
-sudo pip3 install http://download.pytorch.org/whl/cu75/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
-sudo pip3 install torchvision
+#sudo -H pip3 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
+sudo -H pip3 install http://download.pytorch.org/whl/cu75/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
+sudo -H pip3 install torchvision
 
 
 ###########################################################
@@ -104,15 +108,16 @@ sudo pip3 install torchvision
 #
 cp -a wallpaper/ ~/Pictures/
 sudo apt-get install -y chromium-browser hplip-gui calibre gir1.2-gtop-2.0
-sudo pip3 install psutil unidecode
+sudo -H pip3 install psutil unidecode
 cd ..
 git clone git://github.com/danholle/deeptext.git
 
-sudo reboot
+# sudo reboot
 
 #
 #  Post-install stuff via GUI:
 #
+#  0.  vino-preferences.  top two options, bottom one, password
 #  1.  Left toolbar.  There is a lot of stuff there that
 #      you may want to clear out.  I set it to: chromium,
 #      terminal, files, settings, help.
@@ -154,13 +159,13 @@ sudo reboot
 #      for this were problematic;  best to browse to 
 #      dropbox.com and do it all there.
 #       - Log in.  
-#       - Right-click your pic in upper right; click Install
+#       - Click your pic in upper right; click Install
 #       - Choose Ubuntu 64 bit;  when downloaded, Open it.
 #       - Click Install (again!).  Eventually a dialog box
 #         appears saying "Dropbox Start Required".  Now there
 #         will be a flurry of OK-related buttons to push but
 #         eventually you will get a Dropbox icon in the lower
-#         right showing it's syncing.
+#         left showing it's syncing.
 #       - Right click that, Pause Syncing, go to Preferences,
 #         click Sync (upper right), and select which folders
 #         you want sync'd.  Do the OK OK OK thing.

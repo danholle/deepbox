@@ -118,6 +118,7 @@ git clone git://github.com/danholle/deeptext.git
 #  Post-install stuff via GUI:
 #
 #  0.  vino-preferences.  top two options, bottom one, password
+#      Allow view; allow control; require pw; never; close
 #  1.  Left toolbar.  There is a lot of stuff there that
 #      you may want to clear out.  I set it to: chromium,
 #      terminal, files, settings, help.

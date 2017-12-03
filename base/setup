@@ -9,7 +9,7 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
-sudo apt-get install -y linux-image-extra-virtual
+sudo apt-get install -y linux-image-extra-virtual curl wget
 sudo apt-get install -y dkms build-essential linux-headers-generic apt-show-versions
 sudo apt-get install -y openssh-server openmpi-bin chromium-browser gir1.2-gtop-2.0
 
@@ -32,6 +32,6 @@ sudo -H pip3 install numpy scipy scikit-learn protobuf
 # Gnome tweaks for Stuff for remote desktop
 gsettings set org.gnome.Vino enabled true
 gsettings set org.gnome.Vino prompt-enabled false
-gsettings set org.gnome.vino require-encryption false
+gsettings set org.gnome.Vino require-encryption false
 gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:
 

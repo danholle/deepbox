@@ -1,28 +1,51 @@
+WARNING:  This is not quite ready to consume!  Published because I'm testing.
 
 # ***deepbox***
 
-**Yet Another Deep Learning Machine How-To**
+## **Yet Another Deep Learning Machine How-To**
+
 *Actually, More Like A Travelogue than a How-To*
 
-WARNING:  This is not quite ready to consume!  Published because I'm testing.
-
+-------
 
 *Are you a Deep Learning rocket scientist?  Great.  Are you a pro Linux hacker?  Terrific.  Are you an awesome computer wirehead who's nifty with a small calibre screwdriver?  Good on ya.*
 
 *But if you're not all three of those... and neither am I... and you want a fast, simple, economical 
-Deep Learning platform... you have come to the right place.*  
+Deep Learning platform without a deep learning curve... you have come to the right place.*  
 
 -------
 
-I do most everything on an i7 box.  I mean, it's pretty quick.  Mostly, if something's going slow on the i7 box, it's because I did something stupid.
+I do most everything on an i7 box.  I mean, it's pretty quick.  Mostly, if something's 
+going slow on the i7 box, it's because I did something stupid.
 
 Then came Deep Learning.
 
 Holy cow!  Deep Learning would literally take a thousand of yesteryear's supercomputers, and hardly get started.  
+More importantly, Deep Learning made my i7 box run for weeks at a time.  This is no good. 
+
+So I stumbled around a bit, coming up with a way forward:  a box that's 20+ times faster at Deep Learning than
+the i7 at half the cost.  If you'd like to do something similar, read on.
+
+Oh, and in keeping with the season... I come bearing scripts.  Wherever it was convenient to script stuff, I 
+did so;  you will find the scripts here in this github repo.  And there's a lot of TL; DR notes here in case
+you get stuck...
+
+## **The Objective**
+
+ - blah
+ - blah blah
+
+
+## **The Hardware**
+
+To some extent, creating a good Deep Learning box is a GPU with legs (where the legs are the requisite
+hardware and software to get at the GPU).  
 
 
 
-literally 
+
+-------
+
 I built a Deep Learning machine that's around 25x faster than my i7 box at half the cost.  Not by 
 doing the right things, but by making mistakes and learning from them.  This post is about those
 learnings, to save you time.

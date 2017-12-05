@@ -1,23 +1,28 @@
 
 # ***deepbox***
 
--------
-
-## **Yet Another Deep Learning Machine How-To**
-### *Actually, More Like A Travelogue than a How-To*
+**Yet Another Deep Learning Machine How-To**
+*Actually, More Like A Travelogue than a How-To*
 
 WARNING:  This is not quite ready to consume!  Published because I'm testing.
 
--------
 
-Are you a Deep Learning rocket scientist?  Great.  Are you a pro Linux hacker?  Terrific.  Are you an 
-awesome computer wirehead who's nifty with a small calibre screwdriver?  Good on ya.
+*Are you a Deep Learning rocket scientist?  Great.  Are you a pro Linux hacker?  Terrific.  Are you an awesome computer wirehead who's nifty with a small calibre screwdriver?  Good on ya.*
 
-But if you're not all three of those... and neither am I... and you want a fast, simple, economical 
-Deep Learning platform... you have come to the right place.  
+*But if you're not all three of those... and neither am I... and you want a fast, simple, economical 
+Deep Learning platform... you have come to the right place.*  
 
 -------
 
+I do most everything on an i7 box.  I mean, it's pretty quick.  Mostly, if something's going slow on the i7 box, it's because I did something stupid.
+
+Then came Deep Learning.
+
+Holy cow!  Deep Learning would literally take a thousand of yesteryear's supercomputers, and hardly get started.  
+
+
+
+literally 
 I built a Deep Learning machine that's around 25x faster than my i7 box at half the cost.  Not by 
 doing the right things, but by making mistakes and learning from them.  This post is about those
 learnings, to save you time.

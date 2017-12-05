@@ -1,17 +1,22 @@
 
 # ***deepbox***
 
-**Setting Up a Deep Learning Machine**
+-------
 
-WARNING:  This is not quite ready to consume!  Published because I am testing the published version.
+## **Yet Another Deep Learning Machine How-To**
+### *Actually, More Like A Travelogue than a How-To*
+
+WARNING:  This is not quite ready to consume!  Published because I'm testing.
 
 -------
 
 Are you a Deep Learning rocket scientist?  Great.  Are you a pro Linux hacker?  Terrific.  Are you an 
 awesome computer wirehead who's nifty with a small calibre screwdriver?  Good on ya.
 
-But if you're not all three of those... and neither am I... and you want a hot Deep Learning platform... 
-you have come to the right place.  
+But if you're not all three of those... and neither am I... and you want a fast, simple, economical 
+Deep Learning platform... you have come to the right place.  
+
+-------
 
 I built a Deep Learning machine that's around 25x faster than my i7 box at half the cost.  Not by 
 doing the right things, but by making mistakes and learning from them.  This post is about those

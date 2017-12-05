@@ -15,105 +15,37 @@ Deep Learning platform without a deep learning curve... you have come to the rig
 
 -------
 
-I do most everything on an i7 box.  I mean, it's pretty quick.  Mostly, if something's 
+I began with Deep Learning by experimenting on my i7 box.  I mean, it's pretty quick.  Mostly, if something's 
 going slow on the i7 box, it's because I did something stupid.
 
 Then came Deep Learning.
 
 Holy cow!  Deep Learning would literally take a thousand of yesteryear's supercomputers, and hardly get started.  
-More importantly, Deep Learning made my i7 box run for weeks at a time.  This is no good. 
+More importantly, Deep Learning made my i7 box run for weeks at a time.  Hot and bothered.  Both of us.  
 
 So I stumbled around a bit, coming up with a way forward:  a box that's 20+ times faster at Deep Learning than
 the i7 at half the cost.  If you'd like to do something similar, read on.
 
 Oh, and in keeping with the season... I come bearing scripts.  Wherever it was convenient to script stuff, I 
-did so;  you will find the scripts here in this github repo.  And there's a lot of TL; DR notes here in case
-you get stuck...
+did so;  you will find the scripts here in this github repo.  
 
-## **The Objective**
+And there's a lot of TL;DR notes here in case you get stuck.  You may be a Deep Learning god, or a Linux god, or 
+a Hardware god, but if you're not, some of these TL;DR notes won't be so TL;DR for you.
 
- - blah
- - blah blah
+## **The Objectives**
+
+ - **Performant.** Leverage technologies so performance is not a constraint.
+ - **Economical.** But don't try to set world records.  The last mile is expensive and unnecessary.
+ - **Functional.** This stuff is free:  Tensorflow, Keras, PyTorch, CNTK.  Get them all.
+ - **Accessible.** Work from any machine in the world, as if you're local.
 
 
 ## **The Hardware**
 
-To some extent, creating a good Deep Learning box is a GPU with legs (where the legs are the requisite
-hardware and software to get at the GPU).  
+To some extent, a good Deep Learning box is a GPU with legs (where the legs are the requisite
+hardware and software to get at the GPU).  GPUs are that important.
 
+TODO  
 
-
-
--------
-
-I built a Deep Learning machine that's around 25x faster than my i7 box at half the cost.  Not by 
-doing the right things, but by making mistakes and learning from them.  This post is about those
-learnings, to save you time.
-
-This is a travelogue, not a set of step by step instructions.  I'll tell you what I did and why.  
-I'll tell you where I made mistakes, because you may be tempted to make the same ones.  
-
-In the spirit of the season, I come bearing scripts.
-
---------
-
-[Hardware](hardware/README.md)
-
-This is stuff.
-
---------
-
-[Install the Base](base/README.md)
-
-This is more stuff.
-
---------
-
-[Install the GPU Software](gpu/README.md)
-
-stuff about the NVIDIA software
-
---------
-
-[Install the Deep Learning Stuff](deeplearn/README.md)
-
-stuff about installing Tensorflow, Keras, PyTorch, CNTK
-
---------
-
-[Install Remote Access](remote/README.md)
- 
-VNC, SSH, and so forth
-
--------
-
-If you'v gotten this far, I am hoping you have a 
-platform up and running that is meeting your needs.
-
-If that is so, please let me know your thoughts here.
-I can quickly incorporate improvements into this 
-article or to the Git tools.
-
- 
-
-
-
-This project captures some lessons learned from building up a Deep Learnine sg machine on the cheap.  
-Along the way, I stumbled into a few dark alleys;  I'm hoping that these files might help someone
-by putting a light in those alleys  :)
-
-I'm pretty sure nobody will walk exactly the same path that I did.  Thus the complete story is
-not what's interesting here, although one of the individual pieces might be.  Sort of like "the whole is
-less than the sum of its parts".  Therefore I have broken this up into a series of markdown
-files describing particular obstacles I ran into, and how I got around them.
-
-The idea here is to gather notes and scripts together in a form which is easy to find and consume.
-If you're setting up a machine, you can "git clone https://github.com/danholle/deepbox.git" on that
-machine and get all the (lightweight) documents and scripts so you can work with them locally.
-
-Mini-articles you will find here:
- * [hardware](hardware.md):  Thoughts on getting maximum price-performance
- * [gpu](gpu.md):  Setting up GPU hardware and software for Deep Learning
- * more to come
 
 

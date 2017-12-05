@@ -3,7 +3,7 @@
 
 **Remote Access:  SSH and VNC**
 
-WARNING:  This is not ready to consume!  Published because I am testing the published version.
+WARNING:  This is not ready to consume!  Published because I am testing.
 
 -------
 

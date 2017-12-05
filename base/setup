@@ -29,7 +29,7 @@ sudo apt-get install -y python3-nose python3-numpy python3-scipy
 sudo -H pip3 install --upgrade pip
 sudo -H pip3 install numpy scipy scikit-learn protobuf
 
-# Gnome tweaks for Stuff for remote desktop
+# Gnome tweaks for (remote) desktop
 gsettings set org.gnome.Vino enabled true
 gsettings set org.gnome.Vino prompt-enabled false
 gsettings set org.gnome.Vino require-encryption false

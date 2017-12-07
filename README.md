@@ -2,15 +2,13 @@ WARNING:  This is not quite ready to consume!  Published because I'm testing.
 
 # ***deepbox***
 
-## **Yet Another Deep Learning Machine How-To**
-
-*Actually, More Like A Travelogue than a How-To*
+## *Fast, Easy, Cheap:  Your New Deep Learning Machine, Without the Deep Learning Curve**
 
 -------
 
 *Are you a Deep Learning rocket scientist?  Great.  Are you a pro Linux hacker?  Terrific.  Are you an awesome computer wirehead who's nifty with a small calibre screwdriver?  Good on ya.*
 
-*But if you're not all three of those... and neither am I... and you want a fast, simple, economical 
+*But if you're not all three of those... and neither am I... and you want a performant, simple, economical 
 Deep Learning platform without a deep learning curve... you have come to the right place.*  
 
 -------
@@ -25,6 +23,8 @@ More importantly, Deep Learning made my i7 box run for weeks at a time.  Hot and
 
 So I stumbled around a bit, coming up with a way forward:  a box that's 20+ times faster at Deep Learning than
 the i7 at half the cost.  If you'd like to do something similar, read on.
+
+-------
 
 Oh, and in keeping with the season... I come bearing scripts.  Wherever it was convenient to script stuff, I 
 did so;  you will find the scripts here in this github repo.  

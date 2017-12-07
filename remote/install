@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#############################
+#                           
+#  These commands set things up so that 
+#  VNC remote desktop works with this
+#  machine.
+#
+#  Replace "changeme" in this script 
+#  with the password you will use to
+#  access VNC from your VNC client
+#  wherever you may be.
+#                           
+#############################
+ 
+
+gsettings set org.gnome.Vino enabled true
+gsettings set org.gnome.Vino prompt-enabled false
+gsettings set org.gnome.Vino require-encryption false
+gsettings set org.gnome.Vino authentication-methods "['vnc']"
+gsettings set org.gnome.Vino vnc-password $(echo -n "changeme" | base64)
+

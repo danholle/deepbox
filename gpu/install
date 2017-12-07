@@ -1,5 +1,14 @@
 #!/bin/bash
 
+############################
+#
+# Install NVIDIA Drivers for GPU
+# Install CUDA Toolkit
+# Install CUDA Deep Neural Network library
+#
+############################
+
+
 # 
 # Here are the names of the CUDA software we will be installing.
 #

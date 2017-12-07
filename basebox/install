@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#############################
+#                           
+#  Base setup for Deep Box  
+#
+#  This installs a Linux and dev tool foundation that
+#  sets the stage for the rest of the installation.
+#                           
+#############################
+ 
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
+sudo apt-get install -y linux-image-extra-virtual 
+sudo apt-get install -y dkms build-essential 
+sudo apt-get install -y linux-headers-generic linux-image-generic
+sudo apt-get install -y pkg-config apt-show-versions
+sudo apt-get install -y curl wget openssh-server 
+
+# Compilers / tools 
+sudo apt-get install -y openjdk-8-jdk gcc g++ gfortran python3-dev python3-pip
+sudo -H pip3 install --upgrade pip
+sudo apt-get install -y maven cmake
+sudo apt-get install -y gcc g++ gfortran cmake 
+
+# This tweak puts close/minimize/maximize buttons back into Gnome windows 
+gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:
+

@@ -1,0 +1,2 @@
+deb https://dev.monetdb.org/downloads/deb/ xenial monetdb
+deb-src https://dev.monetdb.org/downloads/deb/ xenial monetdb

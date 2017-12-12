@@ -1,0 +1,43 @@
+#!/bin/bash
+
+##################
+#
+# Install Docker
+#
+##################
+
+echo " "
+echo "Installing prerequisites..."
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+
+echo " "
+echo "Getting GPG key for the official Docker repository..."
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+echo "This should show a fingerprint starting with 9DC8."
+
+echo " "
+echo "Add the Docker repo to the APT sources..."
+sudo apt-add-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+apt-cache policy docker-ce
+echo "The above should show xenial packages from docker.com."
+
+echo " "
+echo "Actually install docker..."
+sudo apt-get install -y docker-ce
+
+echo " "
+echo "Testing the install with Hello World..."
+sudo docker run hello-world
+echo "The above should say 'Hello from Docker!' and other cheerful things."
+
+echo " "
+echo "Setting up so ${user} can use Docker without sudo..."
+sudo usermod -aG docker ${USER}
+
+echo " "
+echo "Docker install completed."
+echo " "
+
